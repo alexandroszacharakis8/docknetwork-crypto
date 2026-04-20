@@ -3,3 +3,4 @@
 pub mod commitments;
 pub mod sw_point_addition;
 pub mod sw_scalar_mult;
+pub mod sw_scalar_mult_without_commitment;
