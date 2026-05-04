@@ -1,4 +1,8 @@
 /*!
+This file is derived from `sw_scalar_mult.rs` in the original project.
+Changes: this variant removes commitments to scalars and relevant values; the rest of the code is otherwise unchanged.
+SPDX-License-Identifier: Apache-2.0
+
 Proof of scalar multiplication on short Weierstrass curve without committing to the scalar, but simply proven knowledge of it.
 This is essentially the same as [sw_scalar_mult](crate::ec::sw_scalar_mult)
 
